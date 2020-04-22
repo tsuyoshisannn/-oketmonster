@@ -2,6 +2,7 @@
 ポ○モンのような何かのアプリ
 -oketmonsterへのリンクは[こちらから](https://git.heroku.com/oketmonster.git)
 
+<img width="988" alt="-oketmonster" src="https://user-images.githubusercontent.com/62840658/79933580-6a7b2f80-848b-11ea-82be-14935e258354.png">
 
 
 ### 説明文
