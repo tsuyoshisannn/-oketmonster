@@ -1,0 +1,127 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+h1,h2,p{
+    margin: 0;
+    padding: 0;
+}
+
+/* スタート画面 */
+.game-start{
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* メイン画面 */
+.game-title{
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+}
+.game-display{
+    float: left;
+    display: block;
+    border: solid #333;
+    position: relative;
+    padding: 10px;
+    width: 65%;
+    margin: 20px;
+}
+.meter{
+    width: 90%;
+}
+/* 敵エリア */
+.enemy{
+    display: inline-block;
+    padding: 10px;
+    height: 180px;
+    width: 96%;
+    margin-bottom: 10px;
+}
+.enemy-info-block{
+    height: inherit;
+    width: 70%;
+    float: left;
+    display: block;
+}
+.name{
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px;
+}
+.enemy-hp{
+    margin: 10px;
+}
+
+.enemy-img{
+    float: right;
+    box-sizing: border-box;
+    display: block;
+    height: 180px;
+    width: 28%;
+}
+.enemy-img img{
+    width: 100%;
+    height: 100%;
+}
+
+    
+
+/* 主人公画面 */
+.hero{
+    display: inline-block;
+    padding: 10px;
+    width: 96%;
+}
+.hero-img{
+    float: left;
+    box-sizing: border-box;
+    width: 28%;
+    display: block;
+    height: 180px;
+}
+.hero-img img{
+    height: 100%;
+    margin-left: 65px;
+}
+.hero-info-block{
+    width: 70%;
+    float: right;
+    display: block;
+}
+.hero-hp{
+    margin: 10px;
+}
+
+form{
+    overflow: hidden;
+}
+.form-container{
+    margin-top: 34px;
+}
+input[type="submit"]{
+    border: #777 solid;
+    padding: 15px 20px;
+    width: 125px;
+    margin: 10px;
+    margin-right: 5px;
+}
+input[type="submit"]:hover{
+    background: #777;
+    cursor: pointer;
+}
+.history-count{
+    margin: 10px;
+}
+/* ヒストリーテキストコーナー */
+.history-display{
+    float: right;
+    border: solid #333;
+    position: relative;
+    width: 20%;
+    margin: 20px;
+    height: 403px;
+    padding: 18px;
+    overflow: scroll;
+}
