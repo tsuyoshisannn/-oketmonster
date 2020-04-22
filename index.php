@@ -198,9 +198,9 @@ class History implements HistoryInterface{
 
 // インスタンス(オブジェクトを指す)作成
 $human = new Human('主人公', MaxHp::HUMAN, 500, 40, 100);
-$monsters[] = new Monster('ヤキトリ', MaxHp::MONSTER, 200, 'img/yakitori.jpg', 20, 40);
-$monsters[] = new Monster('ヤバイクサ', MaxHp::MONSTER, 200, 'img/yabaikusa.jpg', 20, 60);
-$monsters[] = new Monster('エジ', MaxHp::MONSTER, 200, 'img/eji.jpg', 30, 50);
+$monsters[] = new Monster('ヤキトリ', MaxHp::MONSTER, 200, 'img/yakitori.JPG', 20, 40);
+$monsters[] = new Monster('ヤバイクサ', MaxHp::MONSTER, 200, 'img/yabaikusa.JPG', 20, 60);
+$monsters[] = new Monster('エジ', MaxHp::MONSTER, 200, 'img/eji.JPG', 30, 50);
 
 // モンスター生成
 function createMonster(){
