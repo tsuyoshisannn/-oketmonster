@@ -30,8 +30,7 @@ macOS Catalina  バージョン10.15.3
 ・  HTML  
 ・  CSS  
 ・  PHP  
-・  JavaScript  
-・  MySQL  
+・  JavaScript    
 
 #### 使用ツール・ライブラリ
 
